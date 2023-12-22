@@ -8,5 +8,6 @@ It will be added to the "To Do" box..
 Then, you can drag and drop the task easily wherever you want in the other boxes "Doing" or "Done" .
 ###### What's next?
 ---
-make it work with local storage for better usage
+make it work with local storage for better usage..
+
 I attached a screenshot in /assets folder from the website while dragging a 'task' onto 'done' box.
