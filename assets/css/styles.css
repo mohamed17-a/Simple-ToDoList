@@ -1,0 +1,105 @@
+/*Global rules*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*Refiening Html elements*/
+body {
+    background: #42aaf5;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+i {
+    font-size: larger;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.inputs {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.data input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #42aaf5;
+    border-radius: 10px;
+}
+
+.btn {
+    background: #42aaf5;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.task {
+    background-color: #42aaf5;
+    color: #fff;
+    cursor: move;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
